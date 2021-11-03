@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <!-- bean yg akan menerima advice-->
+    <bean id="targetObjek" class="com.ferdev.aop.annotation.afterreturning.Operation"></bean>
+    <!--bean aspek yang akan diterapkan-->
+    <bean id="aspek" class="com.ferdev.aop.annotation.afterreturning.AfterReturningAspek"></bean>
+
+    <bean id="proxy" class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"></bean>
+
+
+
+</beans>

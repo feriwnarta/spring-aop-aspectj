@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
+
+    <bean id="targetObjek" class="com.ferdev.aop.xmlbased.afterthrowing.Validasi"></bean>
+    <bean id="aspek" class="com.ferdev.aop.xmlbased.afterthrowing.AfterThrowingAdviceXml"></bean>
+
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+    <aop:config>
+        <aop:aspect id="myaspek" ref="aspek">
+            <aop:pointcut id="mypc"
+                          expression="execution(* com.ferdev.aop.xmlbased.afterthrowing.Validasi.*(..))"/>
+            <aop:after-throwing method="myAdvice" throwing="throwable" pointcut-ref="mypc"></aop:after-throwing>
+        </aop:aspect>
+    </aop:config>
+
+
+
+
+
+
+</beans>

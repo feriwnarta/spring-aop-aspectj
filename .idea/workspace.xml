@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a0f0b5c-6da3-4b2d-bfd7-bb6c6d78acc3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="20MVuRG49Fme4jZbHrV5sEzi5or" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ferdev.aop.xmlbased.arround" />
+      <recent name="com.ferdev.aop.xmlbased.afterreturning" />
+      <recent name="com.ferdev.aop.xmlbased.after" />
+      <recent name="com.ferdev.aop.annotation.arround" />
+      <recent name="com.ferdev.aop.annotation.after" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TstApp (1)">
+    <configuration name="TstApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ferdev.aop.xmlbased.afterthrowing.TstApp" />
+      <module name="spring-framwork-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferdev.aop.xmlbased.afterthrowing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TstApp (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ferdev.aop.xmlbased.before.TstApp" />
+      <module name="spring-framwork-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferdev.aop.xmlbased.before.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TstApp (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ferdev.aop.xmlbased.after.TstApp" />
+      <module name="spring-framwork-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferdev.aop.xmlbased.after.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TstApp (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ferdev.aop.xmlbased.afterreturning.TstApp" />
+      <module name="spring-framwork-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferdev.aop.xmlbased.afterreturning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TstApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ferdev.aop.xmlbased.arround.TstApp" />
+      <module name="spring-framwork-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ferdev.aop.xmlbased.arround.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TstApp (1)" />
+        <item itemvalue="Application.TstApp" />
+        <item itemvalue="Application.TstApp (5)" />
+        <item itemvalue="Application.TstApp (4)" />
+        <item itemvalue="Application.TstApp (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a0f0b5c-6da3-4b2d-bfd7-bb6c6d78acc3" name="Changes" comment="" />
+      <created>1635854672200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635854672200</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ferdev/aop/dtd/beforeadvice/TstApp.java</url>
+          <line>6</line>
+          <properties class="com.ferdev.aop.dtd.beforeadvice.TstApp" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ferdev/aop/dtd/throwadvice/TstApp.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
